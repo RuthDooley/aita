@@ -1,11 +1,15 @@
 
-header {
-  background-color:white;
-  color:pink;
+#main {
 }
 
 body {
   background-color:pink;
+  font-family = "Arial";
+}
+
+header {
+  background-color:white;
+  color:pink;
 }
 
 a:link, a:visited {
@@ -24,5 +28,7 @@ nav {
   color: pink;
 }
 
-#main {
+
+footer {
+  color: white;
 }
