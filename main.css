@@ -20,5 +20,9 @@ a:hover, a:active {
   color: black;
 }
 
+nav {
+  color: pink;
+}
+
 #main {
 }
