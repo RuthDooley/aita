@@ -1,32 +1,64 @@
-#main {
-  width:100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 body {
-  background-color:pink;
-  font-family: 'Alata', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
 }
 
-header {
-  background-color:white;
-  color:pink;
+.container {
+    text-align: center;
 }
 
-a:link {
-  text-decoration: none;
-  background-color: black;
-  color: white;
+/* Input reddit id css */ 
+.reddit-id-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-a:hover, a:active, a:visited {
-  text-decoration: none;
-  background-color: white;
-  color: black;
+.textbox-input {
+    width: 70%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
 }
 
-footer {
-  color: white;
+.submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/* Output results css  */
+.textbox-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.textbox_output {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+    width: 70vw; 
+    height: 50vh;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button-container button {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.button-space {
+    width: 10px; 
 }
