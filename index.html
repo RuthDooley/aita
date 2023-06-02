@@ -10,8 +10,17 @@
     <div class="container">
         <div class="reddit-id-input">
             <input type="text" class="textbox-input" placeholder="Enter Post ID">
-            <button type="button" class="submit-button">Submit</button>
+            <button type="button" id="submit-button" class="submit-button">Submit</button>
         </div>
     </div>
+
+    <!-- Javascript for button events -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("submit-button").addEventListener("click", function() {
+                window.location.href = "result.html"; 
+            });
+        });
+    </script>
 </body>
 </html>

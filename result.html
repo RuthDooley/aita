@@ -13,11 +13,24 @@
             <textarea class="textbox_output" placeholder="Sample..."></textarea>
         </div>
         <div class="button-container">
-            <button type="button">Back</button>
+            <button type="button" id="back-button">Back</button>
             <div class="button-space"></div>
-            <button type="button">Continue</button>
+            <button type="button" id="continue-button">Continue</button>
         </div>
     </div>
+
+    <!-- Javascript for button events -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("back-button").addEventListener("click", function() {
+                window.location.href = "index.html"; 
+            });
+
+            document.getElementById("continue-button").addEventListener("click", function() {
+                window.location.href = "index.html"; // TODO
+            });
+        });
+    </script>
 </body>
 
 </html>
